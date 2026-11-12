@@ -7,3 +7,5 @@
 #ag-contact-dock .ag-whatsapp{color:#20bd5a}
 #ag-contact-dock .ag-find{color:#a9772a}
 @media(max-width:600px){#ag-contact-dock{right:7px;width:58px;padding:7px 4px;border-radius:17px;gap:3px}#ag-contact-dock a{min-height:43px;font-size:9px}#ag-contact-dock .ag-dock-icon{font-size:19px}}
+
+#ag-contact-dock .ag-dock-icon svg{display:block;width:22px;height:22px;overflow:visible}
