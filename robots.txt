@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fayaz-195.github.io/agastya-junior-college/sitemap.xml
