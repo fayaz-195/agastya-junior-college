@@ -16,7 +16,7 @@ const say=(message,error)=>{status.textContent=message;status.style.color=error?
 emailForm.addEventListener('submit',async e=>{
  e.preventDefault();sendBtn.disabled=true;say('Sending secure code…');
  try{
-  const {error}=await client.auth.signInWithOtp({email:ADMIN_EMAIL,options:{shouldCreateUser:false}});
+  const {error}=await client.auth.signInWithOtp({email:ADMIN_EMAIL,options:{shouldCreateUser:true}});
   if(error)throw error;
   emailForm.classList.add('hidden');otpForm.classList.remove('hidden');
   document.getElementById('formTitle').textContent='Check your inbox.';
