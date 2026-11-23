@@ -1,5 +1,5 @@
 (function(){
-  const mount=()=>{if(document.getElementById('agastyaFooter'))return;
+  const mount=()=>{if(document.querySelector('.ag-footer'))return;
     const html=`<footer class="ag-footer" id="contact">
       <div class="ag-footer-enquiry"><div class="ag-footer-enquiry-inner">
         <div class="ag-footer-enquiry-copy"><span>ADMISSIONS 2027–28</span><h2>Start your next chapter at Agastya.</h2></div>
@@ -21,8 +21,9 @@
       </div></div>
       <div class="ag-footer-bottom"><div class="ag-footer-bottom-inner"><span>© <span class="ag-footer-year"></span> Agastya Junior College. All rights reserved.</span><span>Learn with purpose. <b>Achieve aspirations.</b></span><span class="ag-footer-credit">Designed with <a href="https://campus-creatives.pages.dev/" target="_blank" rel="noopener"><b>Campus Creatives</b></a></span><a href="index.html#home">Back to top ↑</a></div></div>
     </footer>`;
+    const mountPoint=document.querySelector('.agastya-footer-mount');
     const old=document.querySelector('footer');
-    if(old)old.outerHTML=html;else document.body.insertAdjacentHTML('beforeend',html);
+    if(mountPoint)mountPoint.outerHTML=html;else if(old)old.outerHTML=html;else document.body.insertAdjacentHTML('beforeend',html);
     document.querySelectorAll('.ag-footer-year').forEach(el=>el.textContent=new Date().getFullYear());
     document.getElementById('footerEnquiryForm')?.addEventListener('submit',function(e){
       e.preventDefault();if(!this.reportValidity())return;
