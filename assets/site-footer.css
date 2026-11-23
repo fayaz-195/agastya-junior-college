@@ -1,5 +1,5 @@
 /* Shared Agastya Junior College footer — original teal, orange and white identity */
-.ag-footer{margin:0;background:#006f78;color:#fff;font-family:inherit}
+.ag-footer{display:block!important;margin:0!important;padding:0!important;background:#006f78!important;color:#fff!important;font-family:inherit;font-size:inherit;line-height:1.5}
 .ag-footer-enquiry{background:#f45124;padding:25px 0}
 .ag-footer-enquiry-inner{width:min(1200px,92%);margin:auto;display:grid;grid-template-columns:.8fr 1.7fr;gap:32px;align-items:center}
 .ag-footer-enquiry-copy>span{font-size:10px;font-weight:900;letter-spacing:2px;color:#fff4e9}
