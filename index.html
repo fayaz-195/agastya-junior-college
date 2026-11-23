@@ -171,7 +171,38 @@
 </style>
 <style id="about-nav-link-fix">.nav .drop>.drop-link{display:block;font-size:14px;font-weight:700;color:#fff;padding:19px 17px;text-decoration:none;line-height:normal;white-space:nowrap}
 @media(max-width:900px){.nav .drop>.drop-link{width:100%;text-align:left;padding:14px 10px}}.nav .drop>.drop-link:hover{background:#0b555d;color:#ffd16d}
-@media(min-width:901px){.navinner{justify-content:center}}</style><link rel="stylesheet" href="assets/site-header.css?v=1"><style>.local-seo-intro{padding:58px 0;background:#f1f7f6;border-top:1px solid #e1ecea;border-bottom:1px solid #e1ecea}.local-seo-intro .container{max-width:1080px}.local-seo-intro small{color:#e6760d;font-size:11px;font-weight:800;letter-spacing:2px}.local-seo-intro h2{margin:12px 0;color:#103b42;font-size:clamp(27px,3vw,38px);line-height:1.15}.local-seo-intro h2 span{color:#078f98}.local-seo-intro p{max-width:850px;color:#53696d;font-size:15px;line-height:1.8}.local-seo-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px}.local-seo-links a{color:#087f88;font-weight:800;text-decoration:underline;text-underline-offset:4px}@media(max-width:600px){.local-seo-intro{padding:40px 0}.local-seo-links{flex-direction:column;gap:12px}}</style><meta name="robots" content="index,follow,max-image-preview:large"></head><body>
+@media(min-width:901px){.navinner{justify-content:center}}</style><link rel="stylesheet" href="assets/site-header.css?v=1"><style>.local-seo-intro{padding:58px 0;background:#f1f7f6;border-top:1px solid #e1ecea;border-bottom:1px solid #e1ecea}.local-seo-intro .container{max-width:1080px}.local-seo-intro small{color:#e6760d;font-size:11px;font-weight:800;letter-spacing:2px}.local-seo-intro h2{margin:12px 0;color:#103b42;font-size:clamp(27px,3vw,38px);line-height:1.15}.local-seo-intro h2 span{color:#078f98}.local-seo-intro p{max-width:850px;color:#53696d;font-size:15px;line-height:1.8}.local-seo-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px}.local-seo-links a{color:#087f88;font-weight:800;text-decoration:underline;text-underline-offset:4px}@media(max-width:600px){.local-seo-intro{padding:40px 0}.local-seo-links{flex-direction:column;gap:12px}}</style><meta name="robots" content="index,follow,max-image-preview:large">
+<style>
+/* Agastya News & Blogs — original teal, orange and white identity */
+.ag-news-section{padding:82px 0 88px;background:#f7fbfa;position:relative;overflow:hidden}
+.ag-news-section:before{content:"";position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(90deg,#0099a6 0 68%,#f45124 68% 100%)}
+.ag-news-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:28px;margin:0 auto 34px}
+.ag-news-kicker{display:inline-block;color:#f45124;font-size:11px;font-weight:900;letter-spacing:2.4px}
+.ag-news-heading h2{font-size:clamp(30px,4vw,46px);line-height:1.12;letter-spacing:-1.2px;color:#173b40;margin:12px 0}
+.ag-news-heading h2 em{font-style:normal;color:#0099a6}
+.ag-news-heading p{color:#64777a;line-height:1.7;font-size:15px;margin:0;max-width:640px}
+.ag-news-all{flex:0 0 auto;display:inline-flex;align-items:center;gap:13px;padding:13px 18px;border:1px solid #0099a6;border-radius:4px;color:#008b96;font-size:13px;font-weight:800;transition:background .2s,color .2s,transform .2s}
+.ag-news-all:hover{background:#0099a6;color:#fff;transform:translateY(-2px)}
+.ag-news-grid{display:grid;grid-template-columns:1.18fr 1fr 1fr;gap:20px;align-items:stretch}
+.ag-news-card{background:#fff;border:1px solid #e3eeec;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0;box-shadow:0 10px 28px rgba(0,83,89,.055);transition:transform .25s,box-shadow .25s}
+.ag-news-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px rgba(0,83,89,.12)}
+.ag-news-image{display:block;position:relative;height:205px;overflow:hidden;background:#e9f3f2}
+.ag-news-feature .ag-news-image{height:230px}
+.ag-news-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.ag-news-card:hover .ag-news-image img{transform:scale(1.045)}
+.ag-news-image:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.28))}
+.ag-news-image-tag{position:absolute;z-index:1;left:16px;bottom:14px;background:#fff;color:#008b96;border-left:3px solid #f45124;padding:7px 10px;font-size:9px;font-weight:900;letter-spacing:1.4px}
+.ag-news-body{padding:22px 22px 24px;display:flex;flex:1;flex-direction:column;align-items:flex-start}
+.ag-news-meta{color:#f45124;font-size:9px;letter-spacing:1.6px;font-weight:900}
+.ag-news-body h3{font-size:19px;line-height:1.35;color:#173b40;margin:10px 0}
+.ag-news-feature .ag-news-body h3{font-size:22px}
+.ag-news-body p{font-size:13px;line-height:1.7;color:#65777a;margin:0 0 20px}
+.ag-news-body>a{margin-top:auto;color:#008d98;font-size:12px;font-weight:900}
+.ag-news-body>a b{color:#f45124;font-size:17px;margin-left:5px}
+@media(max-width:900px){.ag-news-section{padding:64px 0}.ag-news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ag-news-feature{grid-column:1/-1}.ag-news-feature .ag-news-image{height:240px}}
+@media(max-width:600px){.ag-news-section{padding:52px 0}.ag-news-heading{display:block;margin-bottom:25px}.ag-news-heading h2{font-size:32px}.ag-news-all{margin-top:18px}.ag-news-grid{grid-template-columns:1fr;gap:16px}.ag-news-feature{grid-column:auto}.ag-news-image,.ag-news-feature .ag-news-image{height:210px}.ag-news-body,.ag-news-feature .ag-news-body{padding:20px}.ag-news-body h3,.ag-news-feature .ag-news-body h3{font-size:19px}}
+</style>
+</head><body>
 <div class="site-topline"><div class="site-topinner"><span>⌖ Sai Teja Trans Arcade Beside TCS Gate, Adibatla, 501510</span><span>AGASTYA JUNIOR COLLEGE · ADIBATLA</span></div></div>
 <div class="site-identity"><div class="site-identityinner"><a class="site-brand" href="index.html"><img src="https://agastyaedu.com/wp-content/uploads/2024/10/Agastya-Logo-1024x898.png" alt="Agastya Junior College"></a><div class="site-identitycontact"><a href="tel:+919717144911">☎ +91-9717144911</a><a href="mailto:info@agastyaedu.com">✉ info@agastyaedu.com</a></div></div></div>
 <div class="site-navstrip"><div class="site-navinner"><button class="site-menuBtn" id="siteMenuBtn" type="button" aria-expanded="false">☰ Menu</button><nav class="site-nav" id="siteNav" aria-label="Main navigation"><a href="index.html">Home</a><div class="site-drop"><a class="site-drop-link" href="about.html">About <span>▾</span></a><div class="site-dropmenu"><div class="site-dropcol"><strong>About Agastya</strong><a href="why-us.html">Why Us</a><a href="results.html">Results</a></div><div class="site-dropcol"><strong>Leadership</strong><a href="founder-director.html">Our Founder &amp; Director</a><a href="directors.html">Our Directors</a></div><div class="site-dropcol"><strong>Campus</strong><a href="campus.html">Gallery</a><a href="campus.html">Campus Facilities</a></div><div class="site-dropcol"><strong>Explore</strong><a href="events.html">News &amp; Events</a><a href="index.html#blogs">News &amp; Blogs</a><a href="contact.html">Contact</a></div></div></div><a href="campus.html">Gallery</a><div class="site-drop"><button type="button" class="site-drop-toggle">Courses Offered <span>▾</span></button><div class="site-dropmenu"><div class="site-dropcol"><strong>IIT-JEE</strong><a href="jee-advanced.html">JEE Advanced · SUPER PRAGNAN</a><a href="jee-mains.html">JEE Mains · PRAGNAN-I</a></div><div class="site-dropcol"><strong>Entrance Preparation</strong><a href="jee-mains.html">PRAGNAN-N · JEE + EAPCET</a><a href="neet.html">NEET · DHANVANTARI</a></div><div class="site-dropcol"><strong>Admissions</strong><a href="admission-enquiry.html">Enquire About a Programme</a></div></div></div><div class="site-drop"><button type="button" class="site-drop-toggle">Admission <span>▾</span></button><div class="site-dropmenu"><div class="site-dropcol"><strong>Get Started</strong><a href="admission-enquiry.html">Admission Enquiry</a><a href="admission-test.html">Admission Test</a></div><div class="site-dropcol"><strong>Admissions 2027–28</strong><a href="admission-enquiry.html">Apply / Enquire Now</a></div></div></div><a href="index.html#blogs">Blogs</a><a href="contact.html">Contact</a><a href="https://agastyaedu.com/" target="_blank" rel="noopener">Download Brochure</a></nav></div></div>
@@ -222,7 +253,28 @@
 <article class="quick-info-card" id="results"><span class="quick-info-icon">🏆</span><small>RESULTS &amp; ACHIEVEMENTS</small><h2>Every achievement begins with preparation.</h2><p>Explore student achievements and verified academic updates from Agastya.</p><a href="results.html">View Results <b>→</b></a></article>
 <article class="quick-info-card featured" id="long-term"><span class="quick-info-icon">🎓</span><small>SPECIAL PROGRAM</small><h2>Long-Term NEET for Girls</h2><p>10-month focused NEET preparation programme. Contact admissions for details.</p><a href="long-term-neet.html">Programme Details <b>→</b></a></article>
 <article class="quick-info-card" id="admission-test"><span class="quick-info-icon">📝</span><small>ADMISSIONS</small><h2>Admission Test</h2><p>Get information about the admission test schedule and registration process.</p><a href="admission-test.html">Enquire Now <b>→</b></a></article>
-</div></div></section><section class="section" id="blogs"><div class="container sectionHead"><small>UPDATES</small><h2>College News &amp; Blogs</h2><p>For the latest updates, follow Agastya Junior College announcements.</p></div></section></main>
+</div></div></section><section class="ag-news-section" id="blogs" aria-labelledby="ag-news-title">
+  <div class="container">
+    <div class="ag-news-heading">
+      <div><span class="ag-news-kicker">LIFE AT AGASTYA</span><h2 id="ag-news-title">News, updates &amp; <em>inspiration.</em></h2><p>Explore the campus, discover our academic pathways and stay informed about admissions.</p></div>
+      <a class="ag-news-all" href="events.html">Explore Agastya <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="ag-news-grid">
+      <article class="ag-news-card ag-news-feature">
+        <a class="ag-news-image" href="campus.html" aria-label="Explore the Agastya campus"><img loading="lazy" decoding="async" src="https://agastyaedu.com/wp-content/uploads/2024/12/BDS_1706-1024x682.jpg" alt="Agastya Junior College campus"><span class="ag-news-image-tag">CAMPUS LIFE</span></a>
+        <div class="ag-news-body"><span class="ag-news-meta">DISCOVER OUR CAMPUS</span><h3>A learning environment designed around student growth.</h3><p>Take a closer look at the Agastya campus, facilities and the spaces where students work towards their goals.</p><a href="campus.html">Explore the campus <b>→</b></a></div>
+      </article>
+      <article class="ag-news-card">
+        <a class="ag-news-image" href="programs.html" aria-label="Explore academic programmes"><img loading="lazy" decoding="async" src="https://agastyaedu.com/wp-content/uploads/2024/12/BDS_1838-1024x682.jpg" alt="Academic learning at Agastya Junior College"><span class="ag-news-image-tag">ACADEMICS</span></a>
+        <div class="ag-news-body"><span class="ag-news-meta">FIND YOUR PATHWAY</span><h3>Focused preparation for your next academic milestone.</h3><p>Learn about Agastya's IIT-JEE, EAPCET and NEET preparation pathways.</p><a href="programs.html">View programmes <b>→</b></a></div>
+      </article>
+      <article class="ag-news-card">
+        <a class="ag-news-image" href="admission-test.html" aria-label="Get admission information"><img loading="lazy" decoding="async" src="https://agastyaedu.com/wp-content/uploads/2025/06/Website-sliders2-scaled.jpg" alt="Agastya Junior College campus facilities"><span class="ag-news-image-tag">ADMISSIONS</span></a>
+        <div class="ag-news-body"><span class="ag-news-meta">ADMISSIONS 2027–28</span><h3>Take the first step towards your Agastya journey.</h3><p>Find admission test information and connect with the admissions team for guidance.</p><a href="admission-test.html">Admission information <b>→</b></a></div>
+      </article>
+    </div>
+  </div>
+</section></main>
 <section class="contact" id="contact"><div class="container contactgrid"><div><h2>Start your next chapter at Agastya.</h2><p>Connect with our admissions team for programme details and guidance.</p></div><div><h3>Contact</h3><p>Adibatla, Hyderabad, Telangana 501510<br><a href="tel:+919717144911">+91-9717144911</a><br><a href="mailto:info@agastyaedu.com">info@agastyaedu.com</a></p></div><div><h3>Explore</h3><p><a href="#programs">Programs Offered</a><br><a href="#gallery">Gallery</a><br><a href="#enquiry">Admission Enquiry</a></p></div></div></section><footer class="footer">© 2026 Agastya Junior College. All rights reserved.</footer>
 <script>
 const mb=document.getElementById('menuBtn'),nv=document.getElementById('nav');if(mb&&nv){mb.addEventListener('click',()=>{nv.classList.toggle('show');mb.setAttribute('aria-expanded',nv.classList.contains('show'))})}document.querySelectorAll('.drop>button').forEach(b=>b.addEventListener('click',()=>{if(innerWidth<=900)b.parentElement.classList.toggle('open')}));document.getElementById('leadForm')?.addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;if(!form.reportValidity())return;const data=new FormData(form);const message=['Agastya Junior College – Admission Enquiry','Student Name: '+data.get('student'),'Mobile: '+data.get('mobile'),'Email: '+(data.get('email')||'Not provided'),'Programme: '+data.get('programme'),'Message: '+(data.get('message')||'Not provided')].join('\\n');window.open('https://wa.me/919717144911?text='+encodeURIComponent(message),'_blank','noopener');});
