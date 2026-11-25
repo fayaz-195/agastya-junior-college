@@ -1,0 +1,51 @@
+/* Agastya site-wide content width enhancement — desktop 1440px, responsive on mobile */
+:root { --ag-content-max: 1440px; --ag-content-gutter: 32px; }
+
+.container,
+.why-wrap,
+.results-wrap,
+.founder-page,
+.content,
+.ag-gallery-wrap,
+.ag-fac-inner,
+.ag-fac-wrap,
+.events-container,
+.events-hero-inner,
+.ag-program-hero-inner,
+.ag-program-section-head,
+.pagehero,
+.formwrap,
+.admission-grid,
+.founder-grid,
+.campus-hero-content,
+.ag-footer-enquiry-inner,
+.ag-footer-grid,
+.ag-footer-bottom-inner {
+  width: min(var(--ag-content-max), calc(100% - (var(--ag-content-gutter) * 2))) !important;
+  max-width: var(--ag-content-max) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+/* Let wide information tables and card grids use the added space */
+.events-table-wrap,
+.events-quicklinks,
+.ag-gallery-grid,
+.ag-fac-grid,
+.ag-program-grid,
+.results-grid,
+.result-grid,
+.category-grid {
+  max-width: 100%;
+}
+
+/* Keep nested layouts from exceeding the viewport */
+img, video, iframe { max-width: 100%; }
+
+@media (max-width: 900px) {
+  :root { --ag-content-gutter: 24px; }
+}
+@media (max-width: 600px) {
+  :root { --ag-content-gutter: 16px; }
+}
