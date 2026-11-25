@@ -1,5 +1,5 @@
 /* About page layout inspired by the supplied reference; Agastya brand palette retained */
-.about-banner{width:min(1180px,calc(100% - 40px));margin:26px auto 0;min-height:250px;display:grid;grid-template-columns:1.05fr .95fr;overflow:hidden;background:#073b42;border-radius:3px;box-shadow:0 16px 38px rgba(7,59,66,.14)}
+.about-banner{width:min(1440px,calc(100% - 64px));margin:26px auto 0;min-height:250px;display:grid;grid-template-columns:1.05fr .95fr;overflow:hidden;background:#073b42;border-radius:3px;box-shadow:0 16px 38px rgba(7,59,66,.14)}
 .about-banner-copy{padding:42px clamp(26px,5vw,68px);display:flex;flex-direction:column;justify-content:center;position:relative;background:linear-gradient(115deg,rgba(7,59,66,.98),rgba(7,59,66,.88)),url('https://agastyaedu.com/wp-content/uploads/2025/06/Website-sliders1-scaled.jpg') center/cover}
 .about-banner-copy:before{content:"";position:absolute;left:0;top:34px;bottom:34px;width:4px;background:#e6760d}
 .about-banner-copy small{color:#ffc45c;font-size:11px;font-weight:800;letter-spacing:2.3px;text-transform:uppercase}
@@ -9,7 +9,7 @@
 .about-banner-media{min-height:250px;position:relative;overflow:hidden}
 .about-banner-media img{display:block;width:100%;height:100%;min-height:250px;object-fit:cover;object-position:center}
 .about-banner-media:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,59,66,.12),transparent 45%);pointer-events:none}
-.about-intro{width:min(1080px,calc(100% - 48px));margin:0 auto;padding:72px 0 76px;display:grid;grid-template-columns:minmax(280px,.88fr) minmax(0,1.12fr);gap:clamp(36px,6vw,76px);align-items:center}
+.about-intro{width:min(1320px,calc(100% - 64px));margin:0 auto;padding:72px 0 76px;display:grid;grid-template-columns:minmax(280px,.88fr) minmax(0,1.12fr);gap:clamp(36px,6vw,76px);align-items:center}
 .about-intro-visual{position:relative;padding:0 18px 18px 0}
 .about-intro-visual:before{content:"";position:absolute;right:0;bottom:0;width:68%;height:72%;background:#078f98;z-index:0}
 .about-intro-visual img{position:relative;z-index:1;display:block;width:100%;height:390px;object-fit:cover;object-position:center;border-radius:3px;box-shadow:0 14px 32px rgba(7,59,66,.13)}
